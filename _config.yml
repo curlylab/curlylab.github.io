@@ -1,0 +1,16 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        /:categories/:title/
+
+# Setup
+title:            Curly Lab
+url:              http://curlylab.com
+
+paginate:         5
+
+excerpt_separator: <!--more-->
+
+# version:          1.0.0
