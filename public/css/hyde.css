@@ -41,7 +41,7 @@
 }
 @media (min-width: 58rem) {
   html {
-    font-size: 18px;
+    font-size: 16px;/* 18px */
   }
 }
 
@@ -138,13 +138,13 @@ a.sidebar-nav-item:focus {
 /* Container */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    3.5rem; /* 4rem */
+  padding-bottom: 3.5rem; /* 4rem */
 }
 
 @media (min-width: 48rem) {
   .content {
-    max-width: 38rem;
+    max-width: 42rem; /* 38rem */
     margin-left: auto;
     margin-right: auto;
   }
