@@ -451,6 +451,7 @@ a.pagination-item:hover {
   width: 30%;
   padding: 3px;
   margin: 3px auto;
+  border-radius: 5px;
 }
 
 #square {
@@ -487,5 +488,5 @@ a.pagination-item:hover {
   background-color: #36D6BC;
   color: #474243;
   border-radius: 5px;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 }
