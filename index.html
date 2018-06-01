@@ -4,6 +4,7 @@ title: Home
 ---
 
 <div id="square">
+    {% if page == 1 %}
     {% for post in paginator.posts %}
     <div class="box">
     {% for tags in post.tags %}
@@ -24,6 +25,7 @@ title: Home
     </span>
     </div>
     {% endfor %}
+    {% endif %}
 </div>
 
 <div class="posts">
