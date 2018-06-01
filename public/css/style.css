@@ -454,6 +454,7 @@ a.pagination-item:hover {
   border-radius: 5px;
   padding-top: 15%;
   padding-bottom: 15%;
+  z-index: -1;
 }
 
 #square {
