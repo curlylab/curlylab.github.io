@@ -9,7 +9,7 @@ permalink:        /:categories/:title/
 title:            Curly Lab
 url:              http://curlylab.com
 
-paginate:         5
+paginate:         3
 
 excerpt_separator: <!--more-->
 
