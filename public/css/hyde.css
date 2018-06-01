@@ -109,7 +109,8 @@
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  position: relative;
+  top: 1px;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
