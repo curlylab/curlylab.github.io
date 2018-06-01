@@ -4,8 +4,8 @@ title: Home
 ---
 
 <div id="threebox">
-  <div class="tbox">
     {% for post in paginator.posts %}
+    <div class="tbox">
     <div class="boxpost">
     {% for tags in post.tags %}
       <h3 class="boxpost-tags">{{ post.tags }}</h3>
@@ -24,8 +24,8 @@ title: Home
       {% endfor %}
     </span>
     </div>
+    </div>
     {% endfor %}
-  </div>
 </div>
 
 <div class="posts">
