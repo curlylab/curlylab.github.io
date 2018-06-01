@@ -11,13 +11,13 @@ title: Home
       <h3 class="post-tags">{{ post.tags }}</h3>
     {% unless forloop.last %}{% endunless %}
     {% endfor %}
-    <h1 class="boxpost-title">
+    <h1 class="post-title">
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
 
-    <span class="boxpost-date">
+    <span class="post-date">
       {% for category in post.categories %}
         #{{category}}
       {% unless forloop.last %}&nbsp;{% endunless %}
