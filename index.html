@@ -6,7 +6,6 @@ title: Home
 <div id="square">
     {% for post in paginator.posts %}
     <div class="box">
-    <div class="boxpost">
     {% for tags in post.tags %}
       <div class="boxpost-tags">{{ post.tags }}</div>
     {% unless forloop.last %}{% endunless %}
@@ -23,7 +22,6 @@ title: Home
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </span>
-    </div>
     </div>
     {% endfor %}
 </div>
