@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.25;
   color: #36D6BC;
-  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
 }
 h1 {
   font-size: 1.75rem;
