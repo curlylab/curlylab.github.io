@@ -211,7 +211,7 @@ blockquote p:last-child {
 }
 
 img {
-  max-width: 88%; /* 92% */
+  max-width: 86%; /* 92% */
   /*max-width: 36rem; nao redimensionava*/
   height: auto;
   display: block;
@@ -275,7 +275,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .container {
-  max-width: 42rem; /* 38rem */
+  max-width: 44rem; /* 38rem */
   padding-left:  1rem;
   padding-right: 1rem;
   margin-left:  auto;
