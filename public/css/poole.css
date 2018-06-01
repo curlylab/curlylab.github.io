@@ -317,6 +317,20 @@ tbody tr:nth-child(odd) th {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
+.tbox {
+  background: gray;
+  display:inline-block;
+  width: 30%;
+  padding: 3px;
+  margin: 3px auto;
+}
+
+#threebox {
+    width:100%;
+    background:red;
+    text-align:center;
+}
+
 .page,
 .post {
   margin-bottom: 4em;
