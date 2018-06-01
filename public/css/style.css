@@ -2,7 +2,6 @@
  * CSS
  * v1.1
  */
-
 @media (min-width: 48rem) {
   html {
     font-size: 14px;
@@ -17,7 +16,6 @@
 /*
  * Topbar
  */
-
 .sidebar {
   text-align: center;
   padding: 0;
@@ -103,16 +101,15 @@ a.sidebar-nav-item:focus {
 .theme .sidebar {
   background-color: #36D6BC;
 }
+
 .theme .content a,
 .theme .related-posts li a:hover {
   color: #36D6BC;
 }
 
-
 /*
  * Body resets
  */
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -152,6 +149,7 @@ a {
   color: #36D6BC;
   text-decoration: none;
 }
+
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
@@ -167,17 +165,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #36D6BC;
   text-rendering: geometricPrecision;
 }
+
 h1 {
   font-size: 1.75rem;
 }
+
 h2 {
   margin-top: 1rem;
   font-size: 1.25rem;
 }
+
 h3 {
   margin-top: 1rem;
   font-size: 1rem;
 }
+
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 0.75rem;
@@ -202,6 +204,7 @@ ul, ol, dl {
 dt {
   font-weight: bold;
 }
+
 dd {
   margin-bottom: .5rem;
 }
@@ -221,6 +224,7 @@ abbr {
   color: #555;
   text-transform: uppercase;
 }
+
 abbr[title] {
   cursor: help;
   border-bottom: 1px dotted #e5e5e5;
@@ -233,9 +237,11 @@ blockquote {
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
 }
+
 blockquote p:last-child {
   margin-bottom: 0;
 }
+
 @media (min-width: 30rem) {
   blockquote {
     padding-right: 5rem;
@@ -264,11 +270,13 @@ table {
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
+
 td,
 th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
 }
+
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
@@ -277,7 +285,6 @@ tbody tr:nth-child(odd) th {
 /*
  * Messages
  */
-
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -285,11 +292,9 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-
 /*
  * Container
  */
-
 .container {
   max-width: 46rem; /* 38rem */
   padding-left:  1rem;
@@ -306,14 +311,17 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
 }
+
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
 }
+
 .masthead-title a {
   color: #505050;
 }
+
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
@@ -509,4 +517,17 @@ a.pagination-item:hover {
   color: #474243;
   border-radius: 5px;
   font-size: 0.75rem;
+}
+
+@media (min-width: 30rem) {
+  .boxpost-title,
+  .boxpost-title a {
+    font-size: 0.5rem;
+  }
+  .boxpost-date {
+    font-size: 0.25rem;
+  }
+  .boxpost-tags {
+    font-size: 0.25rem;
+  }
 }
