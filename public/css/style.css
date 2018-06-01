@@ -369,6 +369,7 @@ tbody tr:nth-child(odd) th {
   background-color: #36D6BC;
   color: #474243;
   border-radius: 5px;
+  margin-bottom: 0.15rem;
 }
 
 .related {
@@ -518,6 +519,7 @@ a.pagination-item:hover {
   color: #474243;
   border-radius: 5px;
   font-size: 0.75rem;
+  margin-bottom: 0.1rem;
 }
 
 @media (max-width: 30rem) {
@@ -530,5 +532,6 @@ a.pagination-item:hover {
   }
   .boxpost-tags {
     font-size: 0.5rem;
+    margin-bottom: 0.05rem;
   }
 }
