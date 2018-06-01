@@ -454,7 +454,24 @@ a.pagination-item:hover {
   border-radius: 5px;
   padding-top: 15%;
   padding-bottom: 15%;
-  z-index: -1;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.obox {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ibox {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #square {
@@ -468,7 +485,6 @@ a.pagination-item:hover {
 .boxpost-title a {
   color: #36D6BC;
   font-size: 1rem;
-  z-index: 1;
 }
 
 .boxpost-title {
@@ -481,7 +497,6 @@ a.pagination-item:hover {
   margin-bottom: 0;
   color: #9a9a9a;
   font-size: 0.75rem;
-  z-index: 1;
 }
 
 .boxpost-tags {
@@ -495,5 +510,4 @@ a.pagination-item:hover {
   color: #474243;
   border-radius: 5px;
   font-size: 0.75rem;
-  z-index: 1;
 }
