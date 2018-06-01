@@ -4,9 +4,32 @@ title: Home
 ---
 
 <div id="threebox">
-  <div class="tbox"></div>
-  <div class="tbox"></div>
-  <div class="tbox"></div>
+  <div class="tbox">
+    <div class="post">
+    {% for tags in post.tags %}
+      <h3 class="post-tags">{{ post.tags }}</h3>
+    {% unless forloop.last %}{% endunless %}
+    {% endfor %}
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">
+      {% for category in post.categories %}
+        #{{category}}
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
+    </div>
+  </div>
+  <div class="tbox">
+    
+  </div>
+  <div class="tbox">
+    
+  </div>
 </div>
 
 <div class="posts">
