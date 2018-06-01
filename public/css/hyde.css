@@ -119,6 +119,7 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-img {
   width: 18rem;
+  margin-bottom: 0;
 }
 
 /* Sticky sidebar */
