@@ -1,12 +1,8 @@
 /*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
+ * CSS
+ * v1.1
  */
 
-/*html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-}*/
 @media (min-width: 48rem) {
   html {
     font-size: 14px;
@@ -18,12 +14,8 @@
   }
 }
 
-
 /*
- * Sidebar
- *
- * Flexible banner for housing site name, intro, and "footer" content. Starts
- * out above content in mobile and later moves to the side with wider viewports.
+ * Topbar
  */
 
 .sidebar {
@@ -36,18 +28,8 @@
   -ms-user-select: none;
   user-select: none;
 }
-/*@media (min-width: 48rem) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 18rem;
-    text-align: left;
-  }
-}*/
 
-/* Sidebar links */
+/* Topbar links */
 .sidebar a {
   color: #474243;
 }
@@ -65,7 +47,7 @@
   font-size: 4rem;
 }
 
-/* Sidebar nav */
+/* Topbar nav */
 .sidebar-nav {
   padding: 0;
   margin-left: auto;
@@ -96,20 +78,7 @@ a.sidebar-nav-item:focus {
   margin-bottom: 0;
 }
 
-/* Sticky sidebar */
-
-/*@media (min-width: 48rem) {
-  .sidebar-sticky {
-    position: absolute;
-    right:  1rem;
-    bottom: 1rem;
-    left:   1rem;
-  }
-}*/
-
-
 /* Container */
-
 .content {
   padding-top:    3rem; /* 4rem */
   padding-bottom: 3.5rem; /* 4rem */
@@ -130,9 +99,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-
 /* Theme color */
-
 .theme .sidebar {
   background-color: #36D6BC;
 }
@@ -144,8 +111,6 @@ a.sidebar-nav-item:focus {
 
 /*
  * Body resets
- *
- * Update the foundational and global aspects of the page.
  */
 
 * {
@@ -173,11 +138,6 @@ html {
   font-size: 14px;
   line-height: 1.5;
 }
-/*@media (min-width: 38rem) {
-  html {
-    font-size: 18px;
-  }
-}*/
 
 body {
   /*color: #515151;*/
@@ -233,7 +193,6 @@ strong {
   color: #303030;
 }
 
-
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
@@ -267,45 +226,6 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
-/* Code */
-code,
-pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
-}
-code {
-  padding: .25em .5em;
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
-}
-pre {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  line-height: 1.4;
-  white-space: pre;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
-  background-color: #f9f9f9;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
-}
-.highlight {
-  margin-bottom: 1rem;
-  border-radius: 4px;
-}
-.highlight pre {
-  margin-bottom: 0;
-}
-
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
@@ -323,6 +243,7 @@ blockquote p:last-child {
   }
 }
 
+/* Images */
 img {
   max-width: 86%; /* 92% */
   /*max-width: 36rem; nao redimensionava*/
@@ -353,24 +274,8 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-
-/*
- * Custom type
- *
- * Extend paragraphs with `.lead` for larger introductory text.
- */
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
-}
-
-
 /*
  * Messages
- *
- * Show alert messages to users. You may add it to single elements like a `<p>`,
- * or to a parent if there are multiple elements to show.
  */
 
 .message {
@@ -383,8 +288,6 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Container
- *
- * Center the page content.
  */
 
 .container {
@@ -398,8 +301,6 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Masthead
- *
- * Super small header above the content for site name and short description.
  */
 
 .masthead {
@@ -425,9 +326,6 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Posts and pages
- *
- * Each post is wrapped in `.post` and is used on default and post layouts. Each
- * page is wrapped in `.page` and is only used on the page layout.
  */
 
 .page,
@@ -495,9 +393,6 @@ tbody tr:nth-child(odd) th {
 
 /*
  * Pagination
- *
- * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
- * there are no more previous or next posts to show.
  */
 
 .pagination {
@@ -549,7 +444,7 @@ a.pagination-item:hover {
   }
 }
 
-
+/* Three boxes */
 .tbox {
   background: gray;
   display:inline-block;
