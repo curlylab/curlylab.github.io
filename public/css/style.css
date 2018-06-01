@@ -452,7 +452,7 @@ a.pagination-item:hover {
   padding: 3px;
   margin: 3px auto;
   border-radius: 5px;
-  max-height: 25rem;
+  height: 25rem;
 }
 
 #square {
