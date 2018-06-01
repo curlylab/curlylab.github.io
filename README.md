@@ -1,1 +1,1 @@
-[![Image](/public/BouclieLOGOAlphaFull.png)](http://bouclie.com)
+[![Image](/public/CurlyLabLOGOAlphaFull.png)](http://bouclie.com)
