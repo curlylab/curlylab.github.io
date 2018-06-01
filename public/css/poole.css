@@ -323,11 +323,12 @@ tbody tr:nth-child(odd) th {
   width: 30%;
   padding: 3px;
   margin: 3px auto;
+  font-size: 75%;
 }
 
 #threebox {
     width:100%;
-    background:red;
+    /*background:red;*/
     text-align:center;
 }
 
