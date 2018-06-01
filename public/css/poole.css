@@ -443,6 +443,7 @@ a.pagination-item:hover {
   width: 30%;
   padding: 3px;
   margin: 3px auto;
+  font-size: 1rem;
   font-size: 65%;
 }
 
