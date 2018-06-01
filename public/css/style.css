@@ -468,6 +468,7 @@ a.pagination-item:hover {
 .boxpost-title a {
   color: #36D6BC;
   font-size: 1rem;
+  z-index: 1;
 }
 
 .boxpost-title {
@@ -480,6 +481,7 @@ a.pagination-item:hover {
   margin-bottom: 0;
   color: #9a9a9a;
   font-size: 0.75rem;
+  z-index: 1;
 }
 
 .boxpost-tags {
@@ -493,4 +495,5 @@ a.pagination-item:hover {
   color: #474243;
   border-radius: 5px;
   font-size: 0.75rem;
+  z-index: 1;
 }
