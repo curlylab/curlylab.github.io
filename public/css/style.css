@@ -519,7 +519,7 @@ a.pagination-item:hover {
   font-size: 0.75rem;
 }
 
-@media (min-width: 30rem) {
+@media (max-width: 30rem) {
   .boxpost-title,
   .boxpost-title a {
     font-size: 0.5rem;
