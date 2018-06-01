@@ -492,6 +492,7 @@ a.pagination-item:hover {
 .boxpost-title a {
   color: #36D6BC;
   font-size: 1rem;
+  line-height: 1.15;
 }
 
 .boxpost-title {
