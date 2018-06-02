@@ -1,3 +1,6 @@
+---
+---
+
 /*
  * CSS
  * v1.1
@@ -489,6 +492,10 @@ a.pagination-item:hover {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.iboximg {
+  background-image: url( "{{ site.baseurl }}/public/img/{{ post.image }}" );
 }
 
 #square {
