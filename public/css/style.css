@@ -360,10 +360,10 @@ tbody tr:nth-child(odd) th {
 }
 
 .post-tags {
-  padding-top: 0.15rem;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-  padding-bottom: 0.15rem;
+  padding-top: 0.1rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.1rem;
   display: inline;
   /*border: 0.1rem;*/
   background-color: #36D6BC;
