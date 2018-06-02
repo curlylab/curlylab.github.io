@@ -391,7 +391,7 @@ tbody tr:nth-child(odd) th {
   margin: 0;
 }
 
-.related-posts li {
+.related-posts li h3 {
   margin-bottom: 0.25rem;
   line-height: 1.75;
 }
