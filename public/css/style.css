@@ -387,6 +387,11 @@ tbody tr:nth-child(odd) th {
   margin: 0;
 }
 
+.related-posts li {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
 .related-posts li small {
   font-size: 75%;
   color: #999;
