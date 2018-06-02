@@ -370,10 +370,6 @@ tbody tr:nth-child(odd) th {
   color: #474243;
   border-radius: 5px;
 }
-
-.post-tags h3 {
-  margin-bottom: 0.35rem;
-}
   
 .related {
   padding-top: 2rem;
@@ -522,7 +518,7 @@ a.pagination-item:hover {
   color: #474243;
   border-radius: 5px;
   font-size: 0.75rem;
-  margin-bottom: 0.2rem;
+  line-height: 1.3;
 }
 
 @media (max-width: 30rem) {
@@ -535,6 +531,6 @@ a.pagination-item:hover {
   }
   .boxpost-tags {
     font-size: 0.5rem;
-    margin-bottom: 0.1rem;
+    line-height: 1.3;
   }
 }
