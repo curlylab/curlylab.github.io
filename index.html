@@ -8,7 +8,7 @@ title: Home
     {% for post in paginator.posts %}
     <div class="box">
     <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-repeat:no-repeat;
-    background-size:100% 100%;">
+    background-size:cover;">
     <div class="ibox">
     {% for tags in post.tags %}
       <div class="boxpost-tags">{{ post.tags }}</div>
