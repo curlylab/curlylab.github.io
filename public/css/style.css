@@ -378,6 +378,10 @@ tbody tr:nth-child(odd) th {
   border-top: 1px solid #eee;
 }
 
+.related h2 {
+  margin-bottom: 1rem;
+}
+
 .related-posts {
   padding-left: 0;
   list-style: none;
@@ -388,8 +392,8 @@ tbody tr:nth-child(odd) th {
 }
 
 .related-posts li {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.75;
 }
 
 .related-posts li small {
