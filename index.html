@@ -8,6 +8,7 @@ title: Home
     {% for post in paginator.posts %}
     <div class="box">
     <div class="obox">
+      <img src="{{ site.baseurl }}/public/img/{{ post.image }}">
     <div class="ibox">
     {% for tags in post.tags %}
       <div class="boxpost-tags">{{ post.tags }}</div>
