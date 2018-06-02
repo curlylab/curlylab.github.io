@@ -9,6 +9,7 @@ title: Home
     <div class="box">
     <div class="obox">
     <div class="ibox">
+      <img class="iboximg" src="{{ site.baseurl }}/public/img/{{ post.image }}">
     {% for tags in post.tags %}
       <div class="boxpost-tags">{{ post.tags }}</div>
     {% unless forloop.last %}{% endunless %}
