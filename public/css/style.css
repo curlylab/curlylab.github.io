@@ -369,7 +369,7 @@ tbody tr:nth-child(odd) th {
   background-color: #36D6BC;
   color: #474243;
   border-radius: 5px;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.25rem;
 }
 
 .related {
