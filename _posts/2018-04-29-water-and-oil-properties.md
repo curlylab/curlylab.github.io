@@ -2,6 +2,7 @@
 layout: post
 title: Water and oil properties
 categories: haircare
+image: 2018-04-29-water-and-oil-properties.jpg
 ---
 
 Often times I find myself wondering how can I improve my hair health...
