@@ -3,6 +3,7 @@ layout: post
 title: Garnier Ultimate Blends - Coconut Water & Aloe Vera
 categories: haircare
 tags: [Moisturizing on a budget]
+image: 2018-04-25-ultimate-blends-coconut-water-aloe-veraA.png
 ---
 
 
