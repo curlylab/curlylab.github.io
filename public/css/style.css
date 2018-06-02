@@ -492,7 +492,6 @@ a.pagination-item:hover {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-image: url( "{{ site.baseurl }}/public/img/{{ post.image }}" );
 }
 
 #square {
