@@ -486,6 +486,15 @@ a.pagination-item:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+.obox img {
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  /*margin: 0 0 1rem;*/
+  margin: 0;
+  border-radius: 5px;
+}
+
 .ibox {
   position: relative;
   top: 50%;
