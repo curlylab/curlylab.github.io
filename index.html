@@ -7,7 +7,7 @@ title: Home
     {% if paginator.page == 1 %}
     {% for post in paginator.posts %}
     <div class="box">
-    <div class="obox" style="background-image: url("{{ site.baseurl }}/public/img/{{ post.image }}");">
+    <div class="obox" style="background-image: url("/public/img/{{ post.image }}");">
     <div class="ibox">
     {% for tags in post.tags %}
       <div class="boxpost-tags">{{ post.tags }}</div>
