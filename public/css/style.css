@@ -307,9 +307,12 @@ img {
   display: inline-block;
   /*border: 0.1rem;*/
   background-color: #36D6BC;
-  color: #474243;
   border-radius: 5px;
   margin: auto;
+}
+
+.post-more a {
+  color: #474243;
 }
 
 .related {
