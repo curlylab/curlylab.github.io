@@ -144,7 +144,8 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #36D6BC;
+  /*color: #36D6BC; mudei*/
+  color: #f3c20f;
   text-decoration: none;
 }
 
@@ -311,7 +312,8 @@ img {
   padding-bottom: 0.1rem;
   display: inline-block;
   /*border: 0.1rem;*/
-  border: 0.1rem solid #36D6BC;
+  /*border: 0.1rem solid #36D6BC; mudei*/
+  border: 0.1rem solid #f3c20f;
   border-radius: 5px;
   margin: 0;
 }
@@ -466,7 +468,8 @@ a.pagination-item:hover {
 
 .boxpost-title,
 .boxpost-title a {
-  color: #36D6BC;
+  /*color: #36D6BC; mudei*/
+  color: #f3c20f;
   font-size: 1rem;
   line-height: 1.15;
 }
@@ -491,7 +494,8 @@ a.pagination-item:hover {
   display: inline-block;
   /*display: inline;*/
   /*border: 0.1rem;*/
-  background-color: #36D6BC;
+  /*background-color: #36D6BC; mudei*/
+  background-color: #f3c20f;
   color: #474243;
   border-radius: 5px;
   font-size: 0.75rem;
