@@ -360,7 +360,7 @@ tbody tr:nth-child(odd) th {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   padding-bottom: 0.1rem;
-  display: inline;
+  display: block;
   /*border: 0.1rem;*/
   background-color: #36D6BC;
   color: #474243;
@@ -385,6 +385,7 @@ tbody tr:nth-child(odd) th {
 
 .related-posts h3 {
   margin: 0;
+  display: inline;
 }
 
 .related-posts li h3 {
@@ -527,7 +528,7 @@ a.pagination-item:hover {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   padding-bottom: 0.1rem;
-  display: inline-block;
+  display: block;
   /*display: inline;*/
   /*border: 0.1rem;*/
   background-color: #36D6BC;
