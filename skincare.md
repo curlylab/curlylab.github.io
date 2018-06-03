@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SkinCare
+title: skincare
 ---
 
 <div class="posts">
