@@ -271,7 +271,8 @@ img {
 .page-title,
 .post-title,
 .post-title a {
-  color: #36D6BC;
+  /*color: #36D6BC; mudei este funciona*/
+  color: #f3c20f;
 }
 
 /*.page-title {
