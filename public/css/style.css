@@ -389,10 +389,15 @@ tbody tr:nth-child(odd) th {
   vertical-align: middle;
 }
 
+.related-posts h6 {
+  /*display: flex;*/
+  align-items: center;
+  vertical-align: middle;
+}
+
 .related-posts h3 {
   margin: 0;
   /*display: inline-block;*/
-  
 }
 
 .related-posts li h3 {
