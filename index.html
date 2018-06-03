@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-<div id="square">
-    {% if paginator.page == 1 %}
+{% if paginator.page == 1 %}
+<div id="square">    
     {% for post in paginator.posts %}
     <div class="box">
     <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-repeat:no-repeat;
@@ -29,8 +29,8 @@ title: Home
     </div>
     </div>
     {% endfor %}
-    {% endif %}
 </div>
+{% endif %}
 
 <div class="posts">
   {% for post in paginator.posts %}
