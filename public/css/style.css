@@ -507,9 +507,9 @@ a.pagination-item:hover {
   line-height: 1.15;
 }
 
-.boxpost-title {
+/*.boxpost-title {
   margin-top: 0.2rem;
-}
+}*/
 
 .boxpost-date {
   display: block;
@@ -532,6 +532,7 @@ a.pagination-item:hover {
   border-radius: 5px;
   font-size: 0.75rem;
   margin: 0;
+  margin-bottom: 0.2rem;
 }
 
 @media (max-width: 30rem) {
