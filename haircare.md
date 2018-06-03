@@ -5,8 +5,8 @@ title: HairCare
 
 {% for post in site.categories.journal %}
   <article class="post">
-    <small><h1 class="post-title">
+    <h2 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h1></small>
+    </h2>
   </article>
 {% endfor %}
