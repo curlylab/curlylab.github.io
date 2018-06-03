@@ -19,7 +19,6 @@
 .bar {
   text-align: center;
   padding: 0;
-  color: #36D6BC;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -92,7 +91,7 @@ a.bar-nav-item:focus {
 }
 
 /* Theme color */
-.theme .sidebar {
+.theme .bar {
   background-color: #36D6BC;
 }
 
