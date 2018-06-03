@@ -524,7 +524,7 @@ a.pagination-item:hover {
   padding-left: 0.2rem;
   padding-right: 0.2rem;
   padding-bottom: 0.1rem;
-  display: inline;
+  display: inline-block;
   /*display: inline;*/
   /*border: 0.1rem;*/
   background-color: #36D6BC;
@@ -532,7 +532,7 @@ a.pagination-item:hover {
   border-radius: 5px;
   font-size: 0.75rem;
   margin: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
 }
 
 @media (max-width: 30rem) {
