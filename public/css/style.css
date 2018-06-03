@@ -384,7 +384,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .related-posts a {
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   vertical-align: middle;
 }
