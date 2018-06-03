@@ -3,11 +3,22 @@ layout: page
 title: SkinCare
 ---
 
-{% for post in site.categories.skincare %}
-  <article class="post">
+<div class="posts">
+  {% for post in site.categories.skincare limit:6 %}
+  <div class="post">
+    {% for tags in post.tags %}
+      <h3 class="post-tags">{{ post.tags }}</h3>
+    {% unless forloop.last %}{% endunless %}
+    {% endfor %}
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
     </h1>
-    {{ post.content }}
-  </article>
-{% endfor %}
+    {{ post.excerpt }}
+      <a class="post-more" href="{{ post.url }}">
+        Read more
+      </a>
+  </div>
+  {% endfor %}
+</div>
