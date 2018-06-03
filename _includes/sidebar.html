@@ -1,35 +1,19 @@
-<div class="sidebar">
-  <div class="sidebar-sticky">
-    <div class="sidebar-about">
-      <a style="text-decoration: none" href="/"><h1><img class="sidebar-img" src="/public/CurlyLabLOGOAlphaFull.png"></h1></a>
-      {% comment %}<p class="lead">{{ site.description }}</p>{% endcomment %}
+<div class="bar">
+  <div class="bar-box">
+    <div class="bar-logo">
+      <a href="/"><img class="bar-img" src="/public/CurlyLabLOGOAlphaFull.png"></a>
     </div>
-    <ul class="sidebar-nav">
-      {% comment %}<li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
-        <a href="/">Home</a>
-      </li>{% endcomment %}
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
+    <ul class="bar-nav">
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
+            <li class="bar-nav-item{% if page.url == node.url %} active{% endif %}">
               <a href="{{ node.url }}">{{ node.title }}</a>
             </li>
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      {% comment %}<li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a></li>
-      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
-      <li class="sidebar-nav-item">Currently v{{ site.version }}</li>{% endcomment %}
     </ul>
-
-    {% comment %}<p>&copy; {{ site.time | date: '%Y' }}</p>{% endcomment %}
   </div>
 </div>
