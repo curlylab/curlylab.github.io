@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Journal
+title: journal
 ---
 
 <div class="posts">
