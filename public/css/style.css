@@ -385,7 +385,7 @@ tbody tr:nth-child(odd) th {
 
 .related-posts h3 {
   margin: 0;
-  display: inline;
+  display: inline-block;
 }
 
 .related-posts li h3 {
