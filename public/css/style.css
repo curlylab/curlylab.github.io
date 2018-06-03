@@ -306,7 +306,7 @@ img {
   padding-bottom: 0.1rem;
   display: inline-block;
   /*border: 0.1rem;*/
-  border: 5px solid #36D6BC;
+  border: 0.1rem solid #36D6BC;
   border-radius: 5px;
   margin: 0;
 }
