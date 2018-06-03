@@ -1,6 +1,6 @@
 ---
 layout: page
-title: #haircare
+title: haircare
 ---
 
 <div class="posts">
