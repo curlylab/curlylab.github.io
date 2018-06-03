@@ -19,8 +19,7 @@
 .bar {
   text-align: center;
   padding: 0;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: #36D6BC;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -58,7 +57,6 @@
 .bar-nav-item {
   display: inline-block;
   padding: 0.3rem;
-  /*float: left;*/
 }
 a.bar-nav-item:hover,
 a.bar-nav-item:focus {
