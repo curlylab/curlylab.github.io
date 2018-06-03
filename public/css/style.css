@@ -298,7 +298,20 @@ img {
   border-radius: 5px;
   margin: 0;
 }
-  
+
+.post-more {
+  padding-top: 0.1rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.1rem;
+  display: inline-block;
+  /*border: 0.1rem;*/
+  background-color: #36D6BC;
+  color: #474243;
+  border-radius: 5px;
+  margin: 0;
+}
+
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
