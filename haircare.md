@@ -11,3 +11,48 @@ title: HairCare
     {{ post.content }}
   </article>
 {% endfor %}
+
+<div class="posts">
+  {% for post in site.categories.haircare %}
+  <div class="post">
+    {% for tags in post.tags %}
+      <h3 class="post-tags">{{ post.tags }}</h3>
+    {% unless forloop.last %}{% endunless %}
+    {% endfor %}
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">
+      {% for category in post.categories %}
+        #{{category}}
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </span>
+
+    {{ post.excerpt }}
+      <a class="post-more" href="{{ post.url }}">
+        Read more
+      </a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
