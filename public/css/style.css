@@ -386,6 +386,7 @@ tbody tr:nth-child(odd) th {
 .related-posts h3 {
   margin: 0;
   /*display: inline-block;*/
+  vertical-align: middle;
 }
 
 .related-posts li h3 {
