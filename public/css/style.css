@@ -383,17 +383,21 @@ tbody tr:nth-child(odd) th {
   list-style: none;
 }
 
+.related-posts a {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
 .related-posts h3 {
   margin: 0;
   /*display: inline-block;*/
-  display: flex;
-  align-items: center;
+  
 }
 
 .related-posts li h3 {
   margin-bottom: 0.25rem;
   line-height: 1.4;
-  vertical-align: middle;
 }
 
 .related-posts li small {
