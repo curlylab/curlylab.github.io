@@ -14,10 +14,9 @@ title: Home
       <div class="boxpost-tags">{{ post.tags }}</div>
     {% unless forloop.last %}{% endunless %}
     {% endfor %}
+
     <div class="boxpost-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </div>
 
     <span class="boxpost-date">
