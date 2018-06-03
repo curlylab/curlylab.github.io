@@ -299,6 +299,7 @@ tbody tr:nth-child(odd) th {
 
 .content.container {
   background: url("/public/CurlyLabTILE.png") repeat 50% 50%;
+  background-attachment: fixed;
 }
 
 /*
