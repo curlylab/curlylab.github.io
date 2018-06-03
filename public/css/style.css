@@ -306,13 +306,9 @@ img {
   padding-bottom: 0.1rem;
   display: inline-block;
   /*border: 0.1rem;*/
-  background-color: #36D6BC;
+  border: 5px solid #36D6BC;
   border-radius: 5px;
-  margin: auto;
-}
-
-.post-more a {
-  color: #474243;
+  margin: 0;
 }
 
 .related {
