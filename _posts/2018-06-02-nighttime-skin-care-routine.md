@@ -21,5 +21,5 @@ Ah, don't forget to apply a good lip balm at the end. I've been currently using 
 
 ![Nightime routine products](/public/img/2018-06-02-nighttime-skin-care-routineB.jpg)
 
-Well, I know it might sound like a lengthy process, but I complete all these steps in less than 3 minutes 😝 How is your skin care routine? Are you also a "let's get it done" kinda person or do you like to take the time to pamper your skin? Let me know all your tips on how to improve our nighttime routines? - Ni
+Well, I know it might sound like a lengthy process, but I complete all these steps in less than 3 minutes 😝How is your skin care routine? Are you also a "let's get it done" kinda person or do you like to take the time to pamper your skin? Let me know all your tips on how to improve our nighttime routines? - Ni
 
