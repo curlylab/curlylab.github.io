@@ -302,7 +302,8 @@ img {
   /*border: 0.1rem;*/
   /*background-color: #36D6BC; mudei*/
   background-color: #f3c20f;
-  color: #474243;
+  /*color: #474243; mudei*/
+  color: #ffffff;
   border-radius: 5px;
   margin: 0;
 }
@@ -390,7 +391,8 @@ img {
 .pagination-item {
   display: block;
   padding: 1rem;
-  border: 0.1rem solid #36D6BC;
+  /*border: 0.1rem solid #36D6BC; mudei*/
+  border: 0.1rem solid #f3c20f;
 }
 
 .pagination-item:first-child {
@@ -498,7 +500,8 @@ a.pagination-item:hover {
   /*border: 0.1rem;*/
   /*background-color: #36D6BC; mudei*/
   background-color: #f3c20f;
-  color: #474243;
+  color: #ffffff;
+  /*color: #474243; mudei*/
   border-radius: 5px;
   font-size: 0.75rem;
   margin: 0;
