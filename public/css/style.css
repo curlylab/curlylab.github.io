@@ -228,7 +228,7 @@ img {
  * Container
  */
 .container {
-  max-width: 46rem; /* 38rem */
+  max-width: 50rem; /* 38rem */
   padding-left:  3rem; /* 1rem */
   padding-right: 3rem; /* 1rem */
   margin-left:  auto;
