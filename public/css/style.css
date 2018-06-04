@@ -99,7 +99,8 @@ a.bar-nav-item:focus {
 
 .theme .content a,
 .theme .related-posts li a:hover {
-  color: #36D6BC;
+  /*color: #36D6BC; mudei*/
+  color: #f3c20f;
 }
 
 /*
@@ -299,7 +300,8 @@ img {
   padding-bottom: 0.1rem;
   display: inline-block;
   /*border: 0.1rem;*/
-  background-color: #36D6BC;
+  /*background-color: #36D6BC; mudei*/
+  background-color: #f3c20f;
   color: #474243;
   border-radius: 5px;
   margin: 0;
