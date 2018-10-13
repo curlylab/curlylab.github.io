@@ -2,6 +2,7 @@
 layout: post
 title: Max growth protocol
 categories: haircare
+image: 2018-10-13-max-growth-protocol.jpg
 ---
 
 Today let's talk about all the steps to properly moisturize hair!
