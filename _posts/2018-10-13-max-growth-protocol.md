@@ -2,7 +2,6 @@
 layout: post
 title: Max growth protocol
 categories: haircare
-image: 2018-04-29-water-and-oil-properties.jpg
 ---
 
 Today let's talk about all the steps to properly moisturize hair!
@@ -19,3 +18,5 @@ There are multiple times in your hair routine when you can incorporate moisture 
 * Styling: During styling we want to maximize our hair qualities, for example enhance our curl pattern, or bend it to our will, when doing a slick ponytail. For this, we may have to apply products with hold, like gels or pommades, but it is important to always have a hydrating leave-in as a base, and oil for slip and moisture retention.
 
 Let me know which of these steps do you incorporate in your routine or what is your favorite. Tag @curlylabofficial, and share your success with us with the #maxcaremaxgrowth hashtag! We love to see your beautiful manes :)
+
+<!--insert picture-->
