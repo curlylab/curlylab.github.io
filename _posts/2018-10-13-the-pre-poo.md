@@ -11,6 +11,7 @@ However, contrary to straighter textures, curly and coily hair are very prone to
 <!--more-->
 
 There's a variety of things you can do here:
+
 **Hot oil treatment**
 ... Heat-up your favorite oil in the microwave for 20 seconds (to maintain its properties) and massage it into your scalp for at least 5 minutes. Mist your lengths with water and cover them with the remainder oil. The heat along with the massage helps with blood circulation in your scalp, by bringing oxygenated blood to the follicules. This may aid with hair growth besides being super relaxing! Misting the lengths before applying the oil, makes it more manageable besides adding some level of hydration to the hair shaft.
 
