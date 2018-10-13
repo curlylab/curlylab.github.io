@@ -6,7 +6,8 @@ image: 2018-04-29-water-and-oil-properties.jpg
 ---
 
 Today let's talk about all the steps to properly moisturize hair!
-<!-- insert picture -->
+
+
 <!--more-->
 There are multiple times in your hair routine when you can incorporate moisture or slip to you hair:
 
