@@ -150,7 +150,7 @@ body {
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
   /*color: #36D6BC; mudei*/
-  color: #f3c20f;
+  color: #f08b83;
   text-decoration: none;
 }
 
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   line-height: 1.25;
   /*color: #36D6BC; mudei*/
-  color: #f3c20f;
+  color: #f08b83;
   text-rendering: geometricPrecision;
 }
 
@@ -279,7 +279,7 @@ img {
 .post-title,
 .post-title a {
   /*color: #36D6BC; mudei este funciona*/
-  color: #f3c20f;
+  color: #f08b83;
 }
 
 /*.page-title {
@@ -306,7 +306,7 @@ img {
   display: inline-block;
   /*border: 0.1rem;*/
   /*background-color: #36D6BC; mudei*/
-  background-color: #f3c20f;
+  background-color: #f08b83;
   /*color: #474243; mudei*/
   color: #ffffff;
   border-radius: 5px;
@@ -322,7 +322,7 @@ img {
   /*border: 0.1rem;*/
   /*border: 0.1rem solid #36D6BC; mudei*/
   background-color: #ffffff;
-  border: 0.1rem solid #f3c20f;
+  border: 0.1rem solid #f08b83;
   border-radius: 5px;
   margin: 0;
 }
@@ -399,7 +399,7 @@ img {
   display: block;
   padding: 1rem;
   /*border: 0.1rem solid #36D6BC; mudei*/
-  border: 0.1rem solid #f3c20f;
+  border: 0.1rem solid #f08b83;
 }
 
 .pagination-item:first-child {
@@ -480,7 +480,7 @@ a.pagination-item:hover {
 .boxpost-title,
 .boxpost-title a {
   /*color: #36D6BC; mudei*/
-  color: #f3c20f;
+  color: #f08b83;
   font-size: 1rem;
   line-height: 1.15;
 }
@@ -506,7 +506,7 @@ a.pagination-item:hover {
   /*display: inline;*/
   /*border: 0.1rem;*/
   /*background-color: #36D6BC; mudei*/
-  background-color: #f3c20f;
+  background-color: #f08b83;
   color: #ffffff;
   /*color: #474243; mudei*/
   border-radius: 5px;
