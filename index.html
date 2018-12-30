@@ -7,7 +7,7 @@ title: Home
 <div id="square">    
     {% for post in paginator.posts %}
     <div class="box">
-    <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-repeat:no-repeat;
+    <div class="obox" style="background-image: url('/public/img/{{ post.image }}') 50% 50%;background-repeat:no-repeat;
     background-size:cover;">
     <div class="ibox">
     {% for tags in post.tags %}
