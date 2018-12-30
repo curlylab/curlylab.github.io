@@ -94,7 +94,8 @@ a.bar-nav-item:focus {
 /* Theme color */
 .theme .bar {
   /*background-color: #36D6BC; mudei*/
-  background-color: #f3c20f;
+  /*background-color: #f3c20f; amarelo*/
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .theme .content a,
