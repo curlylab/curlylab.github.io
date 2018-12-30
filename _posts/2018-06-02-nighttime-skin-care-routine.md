@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 3-minute natural nighttime skin care routine
-categories: skincare
+categories: [skincare, journal]
 image: 2018-06-02-nighttime-skin-care-routineB.jpg
 ---
 
