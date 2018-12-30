@@ -136,8 +136,9 @@ body {
   /*color: #515151;*/
   /*color: #cccccc; mudei*/
   color: #474243;
-  background: url("/public/CurlyLabTILE.png") repeat 50% 50%;
+  background: url("/public/clBK.jpg") no-repeat 50% 50%;
   background-attachment: fixed;
+  background-size: cover;
   background-color: #ffffff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
