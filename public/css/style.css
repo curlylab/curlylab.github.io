@@ -28,7 +28,7 @@
 /* Topbar links */
 .bar a {
   /*color: #474243; mudei*/
-  color: #ffffff;
+  color: #a2bcd7;
   text-decoration: none;
 }
 
@@ -103,7 +103,7 @@ a.bar-nav-item:focus {
 .theme .related-posts li a:hover {
   /*color: #36D6BC; mudei*/
   /*color: #f3c20f;*/
-  color: #f2766c;
+  color: #a2bcd7;
 }
 
 /*
