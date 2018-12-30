@@ -102,7 +102,8 @@ a.bar-nav-item:focus {
 .theme .content a,
 .theme .related-posts li a:hover {
   /*color: #36D6BC; mudei*/
-  color: #f3c20f;
+  /*color: #f3c20f;*/
+  color: #f2766c;
 }
 
 /*
