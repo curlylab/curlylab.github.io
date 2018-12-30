@@ -18,7 +18,7 @@
  */
 .bar {
   text-align: center;
-  text-shadow: 0 0 4px #ffffff;
+  text-shadow: 0 0 2px #ffffff,0 0 4px #ffffff;
   padding: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
