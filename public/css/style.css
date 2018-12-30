@@ -95,7 +95,8 @@ a.bar-nav-item:focus {
 .theme .bar {
   /*background-color: #36D6BC; mudei*/
   /*background-color: #f3c20f; amarelo*/
-  background-color: rgba(0, 0, 0, 0.5);
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+  background-color: transparent;
 }
 
 .theme .content a,
@@ -236,7 +237,7 @@ img {
   margin-left:  auto;
   margin-right: auto;
   /*background-color: rgba(0, 0, 0, 0.1); mudei*/
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.7);
 }
 
 /*
