@@ -228,7 +228,7 @@ img {
   height: auto;
   display: block;
   /*margin: 0 0 1rem;*/
-  object-fit: cover;
+  /*object-fit: cover;*/
   margin-top: 1rem;
   margin-right: auto;
   margin-bottom: 1rem;
