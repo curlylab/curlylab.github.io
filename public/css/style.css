@@ -406,6 +406,7 @@ img {
 .pagination-item {
   display: block;
   padding: 1rem;
+  background-color: #ffffff;
   /*border: 0.1rem solid #36D6BC; mudei*/
   border: 0.1rem solid #f08b83;
 }
