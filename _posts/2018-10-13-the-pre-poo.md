@@ -20,4 +20,4 @@ There's a variety of things you can do here:
 
 * **Commercial remedy** - For those less comfortable with the whole DIY-concept and that want to reach for something with a coherent formulation and results, there is a plethora of treatments available at convenience stores. These can always be supplemented with other ingredients but are an easier way to make sure you add the pre-poo step into your routine.
 
-Do you incorporate this step in your hair care routine? If so, what's your favorite way of pre-pooing? :)
+Do you incorporate this step in your hair care routine? If so, what's your favorite way of pre-pooing?
