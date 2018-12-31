@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hair types: thickness and volume
+title: Hair types - thickness and volume
 categories: haircare
 ---
 
