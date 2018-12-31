@@ -10,6 +10,12 @@
     <div class="content container">
       {{ content }}
     </div>
-
+    <div>
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>&nbsp;<a href="#top">&#923;</a>
+        </small>
+      </footer>
+    </div>
   </body>
 </html>
