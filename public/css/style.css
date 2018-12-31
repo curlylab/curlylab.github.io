@@ -542,3 +542,8 @@ img {
   padding-right: 1rem;
   }
 }
+
+footer {
+  text-align: right;
+  margin-bottom: -0.5rem;
+}
