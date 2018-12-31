@@ -5,7 +5,7 @@ categories: haircare
 image: 2018-10-13-the-pre-poo.jpg
 ---
 
-As we've seen in the [Max growth protocol](http://curlylab.com/haircare/max-growth-protocol/), pre-poo is the first step for a healthy hair journey. 
+As we've seen in the [max growth protocol](http://curlylab.com/haircare/max-growth-protocol/), pre-poo is the first step for a healthy hair journey. 
 Pre-pooing adds an opportunity to deal with very tangled or dry hair that would get even worse if shampooed without any previous care.
 However, contrary to straighter textures, curly and coily hair are very prone to breakage when manipulated dry, so product application and detangling should be done very carefully!
 <!--more-->
