@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hair types: texture
+title: Hair types - texture
 categories: haircare
 ---
 
