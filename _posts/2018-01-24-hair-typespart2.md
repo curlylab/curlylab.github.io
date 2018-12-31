@@ -4,7 +4,7 @@ title: Hair types - thickness and volume
 categories: haircare
 ---
 
-Although [texture](http://http://curlylab.com/2018-01-23-hair-typespart1/) is the most common way to classify hair, in this post we will see how we can understand our hair better, by assessing its thickness and volume using the FIA system.
+Although [texture](http://curlylab.com/haircare/hair-typespart1/) is the most common way to classify hair, in this post we will see how we can understand our hair better, by assessing its thickness and volume using the FIA system.
 <!--more-->
 
 <!--(Table do FIA system) https://en.wikipedia.org/wiki/Hair#Classification_systems-->
