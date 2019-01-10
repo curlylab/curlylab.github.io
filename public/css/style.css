@@ -341,6 +341,10 @@ img {
   margin: 0;
 }
 
+.index-post {
+  margin-top: -2rem;
+}
+
 .related {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -452,7 +456,7 @@ img {
   display: inline-block;
   width: 30%;
   /*padding: 3px;*/
-  margin: 0rem 0.5rem 2rem;
+  margin: 1.5rem 0.5rem 3rem;
   /*margin: 3px auto;*/
   border-radius: 5px;
   padding-top: 30%;
