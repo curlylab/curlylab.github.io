@@ -7,10 +7,10 @@ permalink:        /:categories/:title/
 
 # Setup
 title:            Curly Lab
-url:              http://curlylab.com
+url:              https://curlylab.com
 
 paginate:         3
 
 excerpt_separator: <!--more-->
 
-# version:          1.0.3
+# version:          1.0.4
