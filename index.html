@@ -32,6 +32,7 @@ title: Home
 </div>
 {% endif %}
 
+{% if paginator.page > 1 %}
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -59,6 +60,7 @@ title: Home
   </div>
   {% endfor %}
 </div>
+{% endif %}
 
 <div class="pagination">
   {% if paginator.next_page %}
