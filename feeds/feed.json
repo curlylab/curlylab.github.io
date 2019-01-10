@@ -11,8 +11,7 @@ layout: null
                 "title": {{item.title | jsonify}},
                 "content": {{item.content | markdownify | strip_html | jsonify}},
                 "link": "{{ site.baseurl }}{{ item.url }}",
-                "date": "{{ item.date }}",
-                "excerpt": "{{ item.snippet }}",
+                "excerpt": "{{ item.excerpt }}",
                 "search_omit": "{{ item.search_omit }}"
             }
             {% assign first = false %}
@@ -28,8 +27,7 @@ layout: null
         "title": {{post.title | jsonify}},
         "content": {{post.content | markdownify | strip_html | jsonify}},
         "link": "{{ site.baseurl }}{{ post.url }}",
-        "date": "{{ post.date }}",
-        "excerpt": "{{ post.snippet }}",
+        "excerpt": "{{ post.excerpt }}",
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
@@ -42,7 +40,6 @@ layout: null
         "title": {{page.title | jsonify}},
         "content": {{page.content | strip_html | jsonify}},
         "link": "{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}",
-        "date": {{ page.date | jsonify }},
         "excerpt": {{ page.description | jsonify }},
         "search_omit": "{{ page.search_omit }}"
     }
