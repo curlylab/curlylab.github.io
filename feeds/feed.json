@@ -9,7 +9,7 @@ layout: null
         "title": {{post.title | jsonify}},
         "content": {{post.content | markdownify | strip_html | jsonify}},
         "link": "{{ site.baseurl }}{{ post.url }}",
-        "excerpt": {{ post.excerpt }},
+        "excerpt": {{ post.excerpt | smartify | jsonify }},
         "search_omit": "{{ post.search_omit }}"
     }
     {% assign first = false %}
