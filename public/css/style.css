@@ -75,6 +75,13 @@ a.bar-nav-item:focus {
   display: inline-block;
 }
 
+.bar-search {
+  display: inline-block;
+  max-width: 46rem;
+  position: relative;
+  right: 0px;
+}
+
 /* Container */
 .content {
   padding-top:    3rem; /* 4rem */
