@@ -78,8 +78,8 @@ a.bar-nav-item:focus {
 .bar-search {
   display: inline-block;
   max-width: 46rem;
-  position: relative;
-  right: 0px;
+  text-align: right;
+  font-size: 28px;
 }
 
 /* Container */
