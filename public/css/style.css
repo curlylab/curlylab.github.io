@@ -77,7 +77,7 @@ a.bar-nav-item:focus {
 
 .bar-search {
   font-size: 20px;
-  vertical-align:text-top;
+  vertical-align:-1.7px;
 }
 
 /* Container */
