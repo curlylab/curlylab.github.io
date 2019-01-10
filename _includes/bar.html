@@ -14,7 +14,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-      <li class="bar-nav-item">
+      <li class="bar-nav-item{% if page.url == node.url %} active{% endif %}">
         <a class="bar-search" href="/search">&#8981;</a>
       </li>
     </ul>
