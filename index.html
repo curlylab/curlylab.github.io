@@ -4,7 +4,7 @@ title: Home
 ---
 
 {% if paginator.page == 1 %}
-<div id="square">    
+<div id="square nohover nofocus">    
     {% for post in paginator.posts %}
     <div class="box"><a href="{{ post.url }}">
     <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;
