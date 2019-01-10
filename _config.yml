@@ -9,8 +9,8 @@ permalink:        /:categories/:title/
 title:            Curly Lab
 url:              https://curlylab.com
 
-paginate:         3
+paginate:         6
 
 excerpt_separator: <!--more-->
 
-# version:          1.0.4
+# version:          1.0.5
