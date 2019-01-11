@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wash & condition - wetting the hair
+title: Wash & condition - Wetting the hair
 categories: haircare
 image: 2018-12-30-washandconditionpart1.jpg
 ---
