@@ -11,6 +11,6 @@ url:              https://curlylab.com
 
 paginate:         6
 
-excerpt_separator: <!--more-->
+# excerpt_separator: <!--more-->
 
 # version:          1.0.5
