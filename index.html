@@ -58,7 +58,7 @@ title: Home
     </span>
     {% assign ncut = 399 %}
     {% if post.content | slice: ncut == " " %}
-      {{ post.content | truncate: contentcut, "" }}
+      {{ post.content | truncate: ncut, "" }}
     {% else %}
         {% decrement ncut %}
         {% if post.content | slice: ncut == " " %}
