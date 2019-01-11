@@ -6,14 +6,15 @@
   <body class="theme">
 
     {% include bar.html %}
-
-    <div class="content container"{% if paginator.page == 1 %} style="padding-top:1.5rem;"{% endif %}>
+    <div class="container{% if paginator.page == 1 %} style="padding-top:1.5rem;"{% endif %}">
+    <div class="content">
       {{ content }}
       <footer class="footer">
         <small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>&nbsp;<a href="#top">&#923;</a>
         </small>
       </footer>
+    </div>
     </div>
   </body>
 </html>
