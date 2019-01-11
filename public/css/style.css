@@ -84,6 +84,9 @@ a.bar-nav-item:focus {
 .content {
   padding-top:    3rem; /* 4rem */
   padding-bottom: 3.5rem; /* 4rem */
+  max-width: 66rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 48rem) {
@@ -245,7 +248,7 @@ img {
  * Container
  */
 .container {
-  max-width: 66rem; /* 38rem */
+  max-width: 100%; /* 38rem */
   padding-left:  3rem; /* 1rem */
   padding-right: 3rem; /* 1rem */
   margin-left:  auto;
