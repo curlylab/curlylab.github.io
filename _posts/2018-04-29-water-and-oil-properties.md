@@ -11,7 +11,7 @@ I started thoroughly researching for solutions when I decided to transition, unt
 
 Today let's talk about the properties of water-based and oil-based products!
 
-![Emulsion](/public/img/2018-04-29-water-and-oil-properties.jpg)
+<!--![Emulsion](/public/img/2018-04-29-water-and-oil-properties.jpg)-->
 <!--more-->
 
 Water-based products impart hydration into hair strands. Strands that are moisturized are supple, have more elasticity and are less prone to breakage. To achieve this, one can use water or products that have water as first ingredient, sometimes appearing in its latin form - _Aqua_. I also love products with aloe vera as their first ingredient, since it has 98.5% of water content with 75 potentially active constituents, such as vitamins, minerals and amino acids. 
