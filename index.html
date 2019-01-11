@@ -57,8 +57,7 @@ title: Home
       {% endfor %}
     </span>
     {% assign ncut = 400 %}
-    {% assign wcut = {% post.content | truncate: ncut, "" | number_of_words %} %}
-    {{ post.content | truncatewords: wcut, "" }}
+    {{ post.content | truncatewords: {% post.content | truncate: ncut, "" | number_of_words %}, "" }}
   </div>
   {% endfor %}
 </div>
