@@ -57,12 +57,12 @@ title: Home
       {% endfor %}
     </span>
     {% assign ncut = 399 %}
-    {% if post.content | slice: ncut == " " %}
+    {% if post.content | slice: ncut contains " " %}
       {{ post.content | truncate: ncut, "" }}
     {% else %}
       {% for i in (1..25) %}
         {% decrement ncut %}
-        {% if post.content | slice: ncut == " " %}
+        {% if post.content | slice: ncut contains " " %}
           {{ post.content | truncate: ncut, "" }}
           {% break %}
         {% endif %}
