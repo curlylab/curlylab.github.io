@@ -5,7 +5,6 @@ categories: haircare
 ---
 
 Although [texture](http://curlylab.com/haircare/hair-typespart1/) is the most common way to classify hair, in this post we will see how we can understand our hair better, by assessing its thickness and volume using the FIA system.
-<!--more-->
 
 <!--(Table do FIA system) https://en.wikipedia.org/wiki/Hair#Classification_systems-->
 
@@ -24,4 +23,4 @@ Although [texture](http://curlylab.com/haircare/hair-typespart1/) is the most co
 [picture of hair types]
 
 My hair is coarse and although I haven't officially measured it, I believe I have medium volume. 
-Have you ever measured your hair volume? Did it surprise you? Let me know if you want to know mine! :*
+Have you ever measured your hair volume? Did it surprise you? Let me know if you want to know mine!
