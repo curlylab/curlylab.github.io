@@ -56,14 +56,14 @@ title: Home
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </span>
-    {% assign contentcut = 400 %}
-    {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
+    {% assign ncut = 400 %}
+    {% if post.content | slice: ncut == " " %}
       {{ post.content | truncate: contentcut, "" }}
     {% else %}
-      {% for item in array limit:30 %}
+      {% for item in array limit:25 %}
         {% decrement contentcut %}
-        {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
-          {{ post.content | truncate: contentcut, "" }}
+        {% if post.content | slice: ncut == " " %}
+          {{ post.content | truncate: ncut, "" }}
           {% break %}
         {% endif %}
       {% endfor %}
