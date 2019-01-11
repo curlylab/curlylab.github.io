@@ -2,7 +2,7 @@
 layout: post
 title: Wash & condition - wetting the hair
 categories: haircare
-image: 2018-10-13-the-pre-poo.jpg
+image: 2018-12-30-washandconditionpart1.jpg
 ---
 
 The wash & condition process, for curly hair specially, doesn't look like advertisements, where you bring all of your hair to the top of the head and massage it during a relaxing ecstasy! We have a couple rules to follow, and it will probably leave you feeling like you just came out of a workout session! 
