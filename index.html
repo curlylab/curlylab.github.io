@@ -28,6 +28,16 @@ title: Home
     </div>
     </div></a>
     </div>
+    <div class="box"><div class="obox">
+    <div class="ibox">
+    {% assign ncut = 300 %}
+    {% assign words = post.content | strip_newlines | markdownify | strip_html | truncate: ncut, "" | number_of_words | decrement %}
+    {{ post.content | strip_newlines | markdownify | strip_html | truncatewords: words, " (...)" }}
+    <p><a class="post-more" href="{{ post.url }}">Read more</a></p>
+    </div>
+    </div>
+    </div>
+    <br>
     {% endfor %}
 </div>
 <div class="post index-post">
