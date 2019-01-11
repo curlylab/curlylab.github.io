@@ -61,12 +61,13 @@ title: Home
       {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
     {% else %}
       {% for i in (1..30) %}
-      {% decrement contentcut %}
-      {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
-      {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
-      {% break %}
-      {% endif %}
+        {% decrement contentcut %}
+        {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
+          {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
+          {% break %}
+        {% endif %}
       {% endfor %}
+    {% endif %}
   </div>
   {% endfor %}
 </div>
