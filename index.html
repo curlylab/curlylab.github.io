@@ -58,7 +58,10 @@ title: Home
     </span>
     {% assign ncut = 300 %}
     {% assign words = post.content | truncate: ncut, "" | number_of_words | decrement %}
-    {{ post.content | truncatewords: words, "" }}
+    {{ post.content | truncatewords: words }}
+      <a class="post-more" href="{{ post.url }}">
+        Read more
+      </a>
   </div>
   {% endfor %}
 </div>
