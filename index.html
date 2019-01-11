@@ -60,7 +60,7 @@ title: Home
     {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
       {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
     {% else %}
-      {% for item in array limit:30 %}
+      {% for i in (1..30) %}
       {% decrement contentcut %}
       {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
       {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
