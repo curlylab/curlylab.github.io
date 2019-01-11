@@ -58,12 +58,12 @@ title: Home
     </span>
     {% assign contentcut = 400 %}
     {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
-      {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
+      {{ post.content | truncate: contentcut, "" }}
     {% else %}
       {% for i in (1..30) %}
         {% decrement contentcut %}
         {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
-          {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
+          {{ post.content | truncate: contentcut, "" }}
           {% break %}
         {% endif %}
       {% endfor %}
