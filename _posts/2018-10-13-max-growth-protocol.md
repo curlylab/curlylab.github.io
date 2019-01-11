@@ -8,7 +8,6 @@ image: 2018-10-13-max-growth-protocol.jpg
 Today let's talk about all the steps to properly moisturize hair!
 
 There are multiple times in your hair routine when you can incorporate moisture or slip to you hair:
-<!--more-->
 
 * **Pre-poo** - This step occurs before you sham**poo** (pre-poo) your hair. Here, we want to make the washing process as easy and less damaging as possible. Applying oil to your hair and scalp not only helps with any detangling that you need to do before hopping in the shower, but also helps protect against hygral fatigue, loss of protein and from the shampoo detergents.
 
