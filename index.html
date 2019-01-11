@@ -56,7 +56,7 @@ title: Home
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </span>
-    {% assign ncut = 400 %}
+    {% assign ncut = 399 %}
     {% if post.content | slice: ncut == " " %}
       {{ post.content | truncate: contentcut, "" }}
     {% else %}
