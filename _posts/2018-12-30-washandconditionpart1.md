@@ -13,9 +13,10 @@ Let's talk about some of the steps you want to take to ensure clean, moisturized
 * **Wetting the hair** 
 Don't simply run your head through water, make sure to completely saturate your strands by touching your hair and making sure that even the inner layers of hair are wet. This may take a bit due to the natural oils produced by the scalp, the styling products applied and even how tangled the hair is at the moment. 
 
+![Wet hair](/public/img/2018-12-30-washandconditionpart1.jpg)
+
+
 Our hair is in its most fragile state when wet, since the cuticles rise, allowing water to penetrate the hair shaft and swelling it, so all the following steps have to be done very carefully to avoid breakage.
 
 Next <!--[**link**]-->, let's talk about how to go about shampooing the hair!
 
-<!--insert picture-->
-[**picture minha the wet hair in the shower**]
