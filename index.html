@@ -57,8 +57,8 @@ title: Home
       {% endfor %}
     </span>
     {% assign ncut = 300 %}
-    {% assign words = post.content | strip_newlines | truncate: ncut, "" | number_of_words | decrement %}
-    {{ post.content | strip_newlines | truncatewords: words, " (...)" }}
+    {% assign words = post.content | strip_newlines | markdownify | strip_html | truncate: ncut, "" | number_of_words | decrement %}
+    {{ post.content | strip_newlines | markdownify | strip_html | truncatewords: words, " (...)" }}
     <p><a class="post-more" href="{{ post.url }}">Read more</a></p>
   </div>
   {% endfor %}
