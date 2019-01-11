@@ -57,10 +57,8 @@ title: Home
       {% endfor %}
     </span>
 
-    {{ post.excerpt }}
-      <a class="post-more" href="{{ post.url }}">
-        Read more
-      </a>
+    {{ post.content | truncate: 600, <a class="post-more" href="{{ post.url }}">Read more</a> }}
+      
   </div>
   {% endfor %}
 </div>
