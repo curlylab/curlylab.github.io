@@ -56,9 +56,17 @@ title: Home
       {% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
     </span>
-
-    {{ post.content | truncate: 600, <a class="post-more" href="{{ post.url }}">Read more</a> }}
-      
+    {% assign contentcut = 400 %}
+    {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
+      {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
+    {% else %}
+      {% for item in array limit:30 %}
+      {% decrement contentcut %}
+      {% if post.content | slice: contentcut == " " or post.content | slice: contentcut == "." %}
+      {{ post.content | truncate: contentcut, '<a class="post-more" href="{{ post.url }}"> Read more</a>' }}
+      {% break %}
+      {% endif %}
+      {% endfor %}
   </div>
   {% endfor %}
 </div>
