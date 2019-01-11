@@ -4,7 +4,7 @@ title: Hair types - texture
 categories: haircare
 ---
 
-There are multiple systems that classify hair, and although we can easily identify it as straight, wavy, curly or coily, my favorite way of typing hair by curl pattern is using the FIA system. Not all hair is the same, an this system allow us to classify each broad type of hair with greater precision.<!--more--> Since it is more detailed, we can distinguish curls of different sizes, hair-strand thickness and overall volume:
+There are multiple systems that classify hair, and although we can easily identify it as straight, wavy, curly or coily, my favorite way of typing hair by curl pattern is using the FIA system. Not all hair is the same, an this system allow us to classify each broad type of hair with greater precision. Since it is more detailed, we can distinguish curls of different sizes, hair-strand thickness and overall volume:
 
 <!--(Table do FIA system) https://en.wikipedia.org/wiki/Hair#Classification_systems-->
 
