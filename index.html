@@ -60,10 +60,13 @@ title: Home
     {% if post.content | slice: ncut == " " %}
       {{ post.content | truncate: ncut, "" }}
     {% else %}
+      {% for i in (1..25) %}
         {% decrement ncut %}
         {% if post.content | slice: ncut == " " %}
           {{ post.content | truncate: ncut, "" }}
+          {% break %}
         {% endif %}
+      {% endfor %}
     {% endif %}
   </div>
   {% endfor %}
