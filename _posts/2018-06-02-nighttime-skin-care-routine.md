@@ -7,8 +7,6 @@ image: 2018-06-02-nighttime-skin-care-routineB.jpg
 
 As you might have guessed I love spending time pampering my hair (well, I actually prefer quicker treatments), however when it comes to the also super important skin care, I tend to be less attentive. But who wants to have dry, dull skin... not me! So I created a super easy and quick night routine to clear and nurture my combination skin after a long, busy day!
 
-<!--more-->
-
 I don't wear makeup most days, but when I do I usually remove it with a baby wipe and a bit of my most rich moisturizing cream. I would recommend that you invest in a good natural makeup remover, if you wear  makeup more often. 
 Next, I cleanse my face and neck with the super delicate and moisturizing Avalon Organics Intense Defense Cleansing Milk. This product feels like a cream, smells like citrus and leaves my skin clean but without striping it. Among its natural, mostly organic ingredients, it's vitamin C, an antioxidant that helps combat environmental stress and damage, helping your skin renew itself naturally. 
 I follow with a bit of the organically grown Real Aloe Inc Aloe Vera Gel. I find it to be one of the best and most natural aloe vera in the market. Also its soft consistency, that is between a gel and liquid, makes it easy to apply without making a mess. I let it absorb a bit on my skin, and apply a serum. 
