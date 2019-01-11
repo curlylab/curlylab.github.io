@@ -60,7 +60,7 @@ title: Home
     {% if post.content | slice: ncut == " " %}
       {{ post.content | truncate: contentcut, "" }}
     {% else %}
-      {% for item in array limit:25 %}
+      {% for i in (1..25) %}
         {% decrement contentcut %}
         {% if post.content | slice: ncut == " " %}
           {{ post.content | truncate: ncut, "" }}
