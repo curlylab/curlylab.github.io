@@ -7,7 +7,7 @@
 
     {% include bar.html %}
     <div class="container">
-    <div class="content{% if paginator.page == 1 %} style='padding-top: 1.5rem;'{% endif %}">
+    <div class="content"{% if paginator.page == 1 %} style="padding-top: 1.5rem;"{% endif %}>
       {{ content }}
       <footer class="footer">
         <small>
