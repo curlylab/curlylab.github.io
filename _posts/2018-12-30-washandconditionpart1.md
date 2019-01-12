@@ -9,7 +9,7 @@ The wash & condition process, for curly hair specially, doesn't look like advert
 
 Let's talk about some of the steps you want to take to ensure clean, moisturized and detangled hair in a reasonable amount of time.
 
-Don't simply run your head through water, make sure to completely saturate your strands by touching your hair and making sure that even the inner layers of hair are wet. This may take a bit due to the natural oils produced by the scalp, the styling products applied and even how tangled the hair is at the moment. 
+Don't simply run your head through water, make sure to completely saturate your strands by massaging your hair and making sure that even the inner layers of hair are wet. This may take a bit due to the natural oils produced by the scalp, the styling products applied and even how tangled the hair is at the moment. 
 
 ![Wet hair](/public/img/2018-12-30-washandconditionpart1.jpg)
 
