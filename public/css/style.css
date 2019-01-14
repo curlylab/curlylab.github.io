@@ -536,6 +536,12 @@ img {
   margin-bottom: 0.25rem;
 }
 
+@media screen and (max-width: 40rem) {
+  html {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 30rem) {
   .boxpost-title,
   .boxpost-title a {
@@ -551,12 +557,6 @@ img {
   .container {
   padding-left: 1rem;
   padding-right: 1rem;
-  }
-}
-
-@media screen and (max-width: 40rem) {
-  html {
-    font-size: 10px;
   }
 }
 
