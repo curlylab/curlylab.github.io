@@ -1,7 +1,7 @@
 /*
  * CSS
  * v1.1
- */
+ 
 @media (min-width: 48rem) {
   html {
     font-size: 14px;
@@ -11,7 +11,7 @@
   html {
     font-size: 16px;/* 18px */
   }
-}
+}*/
 
 /*
  * Topbar
@@ -455,6 +455,9 @@ img {
     margin-left: -1px;
     border-top-right-radius:    5px;
     border-bottom-right-radius: 5px;
+  }
+  html {
+    font-size: 10px;
   }
 }
 
