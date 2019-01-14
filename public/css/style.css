@@ -8,12 +8,6 @@
   }
 }*/
 
-@media screen and (max-width: 20rem) {
-  html {
-    font-size: 10px;
-  }
-}
-
 /*
  * Topbar
  */
@@ -557,6 +551,12 @@ img {
   .container {
   padding-left: 1rem;
   padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 20rem) {
+  html {
+    font-size: 10px;
   }
 }
 
