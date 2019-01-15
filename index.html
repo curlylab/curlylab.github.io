@@ -5,9 +5,9 @@ title: Home
 
 {% if paginator.page == 1 %}
 <div id="square">
-    {% assign ccle = 1 %}
-    {% for post in paginator.posts %}
-    {% if ccle == 1 or 3 or 5 %}
+  {% assign ccle = 1 %}
+  {% for post in paginator.posts %}
+    {% if ccle == "1" or "3" or "5" %}
       <div class="box"><a class="nohover nofocus" href="{{ post.url }}">
       <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;background-size:cover;">
       <div class="ibox">
@@ -74,7 +74,7 @@ title: Home
       <br>
       {% increment ccle %}
     {% endif %}
-    {% endfor %}
+  {% endfor %}
 </div>{% comment %}
 <div class="post index-post">
   <h1 class="post-title">Welcome</h1>
