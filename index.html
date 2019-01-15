@@ -4,40 +4,76 @@ title: Home
 ---
 
 {% if paginator.page == 1 %}
-<div id="square">    
+<div id="square">
+    {% assign ccle = 1 %}
     {% for post in paginator.posts %}
-    <div class="box"><a class="nohover nofocus" href="{{ post.url }}">
-    <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;
-    background-size:cover;">
-    <div class="ibox">
-    {% for tags in post.tags %}
-      <div class="boxpost-tags">{{ post.tags }}</div>
-    {% unless forloop.last %}{% endunless %}
-    {% endfor %}
-
-    <div class="boxpost-title">
-      {{ post.title }}
-    </div>
-
-    <span class="boxpost-date">
-      {% for category in post.categories %}
-        #{{category}}
-      {% unless forloop.last %}&nbsp;{% endunless %}
+    {% if ccle == 1 or 3 or 5 %}
+      <div class="box"><a class="nohover nofocus" href="{{ post.url }}">
+      <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;background-size:cover;">
+      <div class="ibox">
+      {% for tags in post.tags %}
+        <div class="boxpost-tags">{{ post.tags }}</div>
+      {% unless forloop.last %}{% endunless %}
       {% endfor %}
-    </span>
-    </div>
-    </div></a>
-    </div>
-    <div class="box" style="width: 60%;"><div class="obox">
-    <div class="ibox" style="background-color: transparent;">
-    {% assign ncut = 300 %}
-    {% assign words = post.content | strip_newlines | markdownify | strip_html | truncate: ncut, "" | number_of_words | decrement %}
-    {{ post.content | strip_newlines | markdownify | strip_html | truncatewords: words, " (...)" }}
-    <p><a class="post-more" href="{{ post.url }}">Read more</a></p>
-    </div>
-    </div>
-    </div>
-    <br>
+
+      <div class="boxpost-title">
+        {{ post.title }}
+      </div>
+
+      <span class="boxpost-date">
+        {% for category in post.categories %}
+          #{{category}}
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+      </span>
+      </div>
+      </div></a>
+      </div>
+      <div class="box" style="width: 60%;"><div class="obox">
+      <div class="ibox" style="background-color: transparent;">
+      {% assign ncut = 300 %}
+      {% assign words = post.content | strip_newlines | markdownify | strip_html | truncate: ncut, "" | number_of_words | decrement %}
+      {{ post.content | strip_newlines | markdownify | strip_html | truncatewords: words, " (...)" }}
+      <p><a class="post-more" href="{{ post.url }}">Read more</a></p>
+      </div>
+      </div>
+      </div>
+      <br>
+      {% increment ccle %}
+    {% else %}
+      <div class="box" style="width: 60%;"><div class="obox">
+      <div class="ibox" style="background-color: transparent;">
+      {% assign ncut = 300 %}
+      {% assign words = post.content | strip_newlines | markdownify | strip_html | truncate: ncut, "" | number_of_words | decrement %}
+      {{ post.content | strip_newlines | markdownify | strip_html | truncatewords: words, " (...)" }}
+      <p><a class="post-more" href="{{ post.url }}">Read more</a></p>
+      </div>
+      </div>
+      </div>
+      <div class="box"><a class="nohover nofocus" href="{{ post.url }}">
+      <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;background-size:cover;">
+      <div class="ibox">
+      {% for tags in post.tags %}
+        <div class="boxpost-tags">{{ post.tags }}</div>
+      {% unless forloop.last %}{% endunless %}
+      {% endfor %}
+
+      <div class="boxpost-title">
+        {{ post.title }}
+      </div>
+
+      <span class="boxpost-date">
+        {% for category in post.categories %}
+          #{{category}}
+        {% unless forloop.last %}&nbsp;{% endunless %}
+        {% endfor %}
+      </span>
+      </div>
+      </div></a>
+      </div>
+      <br>
+      {% increment ccle %}
+    {% endif %}
     {% endfor %}
 </div>{% comment %}
 <div class="post index-post">
