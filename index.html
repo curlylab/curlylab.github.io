@@ -5,10 +5,9 @@ title: Home
 
 {% if paginator.page == 1 %}
 <div id="square">
-  {% assign narray = '1,3,5' | split: ',' | abs  %}
   {% assign ccle = 1 %}
   {% for post in paginator.posts %}
-    {% if narray contains ccle %}
+    {% if ccle == 1 and ccle == 3 and ccle == 5 %}
       <div class="box"><a class="nohover nofocus" href="{{ post.url }}">
       <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;background-size:cover;">
       <div class="ibox">
