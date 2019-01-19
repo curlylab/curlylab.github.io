@@ -7,7 +7,7 @@ title: Home
 <div id="square">
   {% assign ccle = 1 %}
   {% for post in paginator.posts %}
-    {% if ccle =! 1 or ccle =! 3 or ccle =! 5 %}
+    {% if ccle != 1 or ccle != 3 or ccle != 5 %}
       <div class="box"><a class="nohover nofocus" href="{{ post.url }}">
       <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;background-size:cover;">
       <div class="ibox">
