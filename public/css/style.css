@@ -251,7 +251,7 @@ img {
 }
 
 .content {
-  max-width: 66rem;
+  max-width: 55rem; /* 66rem; */
   margin-left:  auto;
   margin-right: auto;
 }
