@@ -8,7 +8,7 @@ title: Home
   {% assign narray = '1,3,5' | split: ','  %}
   {% assign ccle = 1 %}
   {% for post in paginator.posts %}
-    {% if ccle contains narray.handle %}
+    {% if narray contains ccle %}
       <div class="box"><a class="nohover nofocus" href="{{ post.url }}">
       <div class="obox" style="background-image: url('/public/img/{{ post.image }}');background-position:center center;background-repeat:no-repeat;background-size:cover;">
       <div class="ibox">
