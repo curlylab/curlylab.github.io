@@ -1,22 +1,18 @@
-<div class="bar">
-  <div class="bar-box">
-    <div class="bar-logo">
-      <a class="nohover nofocus" href="/"><img class="bar-img" src="/public/clLOGOalpha.png"></a>
-    </div>
-    <ul class="bar-nav">
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <li class="bar-nav-item{% if page.url == node.url %} active{% endif %}">
-              <a href="{{ node.url }}">#{{ node.title }}</a>
-            </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      <li class="bar-nav-item{% if page.url == node.url %} active{% endif %}">
-        <a class="bar-search" href="/search">&#8981;</a>
-      </li>
-    </ul>
-  </div>
+<!-- Header -->
+<div class="header">
+  <a class="nohover nofocus" href="/"><img class="bar-img" src="/public/clLOGOalpha.png"></a>
+  <p>Some <b>text</b> here.</p>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == "page" %}
+        <a class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">#{{ node.title }}</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  <a class="bar-search class="{% if page.url == node.url %} active{% endif %}" href="/search">&#8981;</a>
 </div>
